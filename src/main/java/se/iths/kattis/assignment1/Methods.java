@@ -4,7 +4,7 @@ public class Methods {
     public static void main(String[] args) {
 
         // intArray initieras och metoden findMaxInt anropas, en int [] som argument
-        int[] intArray = new int[]{4, 35, 8, 23, 55, 5, 78};
+        int[] intArray = new int[]{4, 35, 8, 78, 55, 5, 23};
         System.out.println(findMaxInt(intArray));
 
 
@@ -25,9 +25,9 @@ public class Methods {
 
         int max = 0;
 
-        for (int i = 0; i < intArray.length; i++) {
-            if (max < intArray[i]) {
-                max = intArray[i];
+        for (int number : intArray) {
+            if (number > max) {
+                max = number;
             }
         }
         return max;
