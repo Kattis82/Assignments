@@ -25,11 +25,17 @@ public class Methods {
 
         int max = 0;
 
+        // loopar igenom alla tal och jämför talen med variabeln max
+        // är talet större än nuvarande max sparas talet i variabeln max
+
         for (int number : intArray) {
             if (number > max) {
                 max = number;
             }
         }
+
+        // när loopen gått klart returneras max
+
         return max;
     }
 
