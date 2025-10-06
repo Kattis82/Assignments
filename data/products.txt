@@ -1,0 +1,2 @@
+Mascara;1001;MaxFactor;180.0;Volume mascara;volym;nej
+Eyeshadow;1003;IsaDora;145.0;nudes ögonskugga;rosa;krämig
